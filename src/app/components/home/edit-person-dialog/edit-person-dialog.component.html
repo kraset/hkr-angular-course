@@ -1,0 +1,14 @@
+<div class="edit-person-dialog">
+  <h1 mat-dialog-title>Edit Person</h1>
+  <div mat-dialog-content>
+    <p>Something</p>
+    <mat-form-field appearance="fill">
+      <mat-label>Something else</mat-label>
+      <input matInput [(ngModel)]="editPersonInfo.something" />
+    </mat-form-field>
+  </div>
+  <div mat-dialog-actions>
+    <button mat-button (click)="onCancel()">Cancel</button>
+    <button mat-button (click)="onSave()">Save</button>
+  </div>
+</div>
