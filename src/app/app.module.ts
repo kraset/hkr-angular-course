@@ -11,6 +11,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatButtonModule } from '@angular/material/button';
 import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
     HttpClientModule,
     MatDialogModule, // for dialogs
     MatButtonModule, // for buttons
+    MatInputModule,
     MatFormFieldModule, // for inputs
     AppRoutingModule,
     BrowserAnimationsModule,
