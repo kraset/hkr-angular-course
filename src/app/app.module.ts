@@ -7,6 +7,7 @@ import { PersonTableComponent } from './components/home/person-table/person-tabl
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { EditPersonDialogComponent } from './components/home/edit-person-dialog/edit-person-dialog.component';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatButtonModule } from '@angular/material/button';
 import { MatFormFieldModule } from '@angular/material/form-field';
@@ -21,6 +22,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
   imports: [
     BrowserModule,
     FormsModule, // for ngModel
+    HttpClientModule,
     MatDialogModule, // for dialogs
     MatButtonModule, // for buttons
     MatFormFieldModule, // for inputs

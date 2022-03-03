@@ -34,7 +34,7 @@ export interface ITrack {
 export class MusicApiService {
   constructor(private http: HttpClient) {}
 
-  getConfig(): Observable<ITrack[]> {
+  getTracks(): Observable<ITrack[]> {
     return this.http.get<ITrack[]>(API_URL);
   }
 }
